@@ -28,7 +28,7 @@ html {
 
 #profile-photo {
     height: 220px;
-    border-radius: 150px;    
+    border-radius: 150px;
 }
 
 .header {
@@ -50,11 +50,6 @@ html {
     flex-direction: column;
     justify-content: center;
     padding: 25px 0;
-
-}
-
-.content {
-    margin: 30px 0;
 }
 
 h1 {
@@ -65,6 +60,7 @@ h2 {
     font-weight: 300;
     font-size: 25px;
     padding-bottom: 10px;
+    margin: 30px 0 10px 0;
 }
 
 #info {
@@ -76,7 +72,8 @@ h2 {
     font-size: 40px;
 }
 
-#major, #email {
+#major,
+#email {
     font-size: 20px;
     font-weight: 200;
 }
@@ -96,7 +93,8 @@ h2 {
     background-color: cornflowerblue;
 }
 
-.main a, a:visited {
+.main a,
+a:visited {
     color: inherit;
     text-decoration: none;
     border-bottom: 1px solid cornflowerblue;
@@ -107,6 +105,48 @@ h2 {
     border-bottom: 1px dashed cornflowerblue;
 }
 
-a:hover {
+/* Experience */
 
+.experience li {
+    margin-left: 20px;
+}
+
+.activity-name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.activity-duration {
+    margin-top: 5px;
+}
+
+.activity-place {
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Awards */
+
+.awards li {
+    margin-left: 20px;
+}
+
+.awards li div {
+    margin-bottom: 15px;
+}
+
+.award-name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.award-date {
+    margin-top: 5px;
+}
+
+.award-by {
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 18px;
 }
