@@ -51,4 +51,18 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    #info {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #major {
+        width: 70%;
+        text-align: center;
+    }
+
+    #profile-photo {
+        height: 9.5rem;
+    }
 }
