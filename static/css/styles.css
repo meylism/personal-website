@@ -14,11 +14,11 @@ html {
 
 #main-container {
     width: 750px;
-    margin: 60px auto;
+    margin: 3rem auto;
 }
 
 .logo {
-    height: 40px;
+    height: 2rem;
     opacity: 70%;
 }
 
@@ -27,7 +27,7 @@ html {
 }
 
 #profile-photo {
-    height: 220px;
+    height: 11rem;
     border-radius: 150px;
 }
 
@@ -42,14 +42,14 @@ html {
 }
 
 #links * {
-    margin-right: 15px;
+    margin-right: 0.75rem;
 }
 
 .about-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 25px 0;
+    padding: 1.25rem 0;
 }
 
 h1 {
@@ -58,23 +58,25 @@ h1 {
 
 h2 {
     font-weight: 300;
-    font-size: 25px;
-    padding-bottom: 10px;
-    margin: 30px 0 10px 0;
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+    margin: 1.5rem 0 0.5rem 0;
 }
 
 #info {
     line-height: 30px;
-    margin: 30px 0
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
 }
 
 #name {
-    font-size: 40px;
+    font-size: 2.1rem;
 }
 
 #major,
 #email {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 200;
 }
 
@@ -108,45 +110,47 @@ a:visited {
 /* Experience */
 
 .experience li {
-    margin-left: 20px;
+    margin-left: 1rem;
 }
 
 .activity-name {
-    font-size: 20px;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
 .activity-duration {
-    margin-top: 5px;
+    margin-top: 0.25rem;
+    font-size: 0.95rem;
 }
 
 .activity-place {
-    margin-bottom: 5px;
+    margin-bottom: 0.25rem;
     font-style: italic;
-    font-size: 18px;
+    font-size: .9rem;
 }
 
 /* Awards */
 
 .awards li {
-    margin-left: 20px;
+    margin-left: 1rem;
 }
 
 .awards li div {
-    margin-bottom: 15px;
+    margin-bottom: 0.75rem;
 }
 
 .award-name {
-    font-size: 20px;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
 .award-date {
-    margin-top: 5px;
+    margin-top: 0.25rem;
+    font-size: 0.95rem;
 }
 
 .award-by {
-    margin-bottom: 5px;
+    margin-bottom: 0.25rem;
     font-style: italic;
-    font-size: 18px;
+    font-size: .9rem;
 }
