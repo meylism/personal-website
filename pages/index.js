@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.header__aboutMe}>
             <h1 className={styles.header__name}>Meylis Matiyev</h1>
             <div className={styles.header__info}>
-                <h3 className={styles.header__major}>Undergraduate student, University of Pécs</h3>
+                <p className={styles.header__major}>Undergraduate student, University of Pécs</p>
             </div>
         </div>
         <div>

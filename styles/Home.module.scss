@@ -3,21 +3,41 @@
     justify-content: space-between;
     margin-bottom: 3rem;
 
+    @media only screen and (max-width: 600px) {
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+
     &__aboutMe {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
+    
+        @media only screen and (max-width: 600px) {
+            margin-top: 3rem;
+            align-items: center;
+          }
+
     }
 
     &__name {
         font-size: 6rem;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 5rem;
+          }
+
+        @media only screen and (max-width: 400px) {
+            font-size: 4.5rem;
+        }
     }
 
     &__info {
     }
 
     &__major {
+        font-size: 1.8rem;
         font-weight: 100;
         font-style: italic;
     }
@@ -100,5 +120,11 @@
 
 .profilePhoto {
     height: 18rem;
+    width: 18rem;
     border-radius: 150px;
+
+    @media only screen and (max-width: 600px) {
+        width: 16rem;
+        height: 16rem;
+      }
 }

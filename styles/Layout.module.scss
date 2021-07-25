@@ -1,10 +1,28 @@
 .mainContainer {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 2rem auto;
     line-height: 2.4rem;
 
+    @media only screen and (max-width: 770px) {
+        padding: 0 4.5rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 0 4.2rem;
+    }
+
+    @media only screen and (max-width: 400px) {
+        padding: 0 3.5rem;
+    }
+
     &__linkBack {
+        display: inline-block;
         color: #FF6600;
+        margin: 0 auto 1.5rem auto;
+
+        a {
+            align-self: center;
+        }
 
         span {
             display: inline-block;
@@ -26,6 +44,14 @@
             padding: 2rem 4rem;
             border-bottom: 2px solid transparent;
             transition: border-bottom .3s;
+            
+            @media only screen and (max-width: 400px) {
+                padding: 2rem 3rem;
+            }
+
+            @media only screen and (max-width: 350px) {
+                padding: 1.5rem 2rem;
+            }
 
             &:hover {
                 background-color: rgb(228, 228, 228);

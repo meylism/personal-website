@@ -20,16 +20,12 @@
 
     h1 {
         font-size: 2.4rem;
-        display: flex;
-        flex-direction: row;
-        transform: translateX(-3rem);
     }
 
     h2 {
         font-size: 2.2rem;
         display: flex;
         flex-direction: row;
-        transform: translateX(-2.5rem);
         margin: 2rem 0 1.5rem 0;
     }
 
@@ -38,7 +34,16 @@
         font-size: 3rem;
         color: #FF6600;
         display: block;
-        transform: translateX(-1rem);
+        position: absolute;
+        transform: translateX(-4rem);
+
+        @media only screen and (max-width: 800px) {
+            transform: translateX(-3rem);
+        }
+
+        @media only screen and (max-width: 400px) {
+            content: none;
+        }
     }
 
     h2::before {
@@ -46,8 +51,16 @@
         font-size: 2.5rem;
         color: #FF6600;
         display: block;
-        transform: rotate(-45deg) translate(-1rem, -1rem);
+        position: absolute;
+        transform: rotate(-45deg) translate(-2.5rem, -2.5rem);
         transform-origin: center;
-    }
 
+        @media only screen and (max-width: 800px) {
+            transform: rotate(-45deg) translate(-2rem, -2rem);
+        }
+
+        @media only screen and (max-width: 400px) {
+            content: none;
+        }
+    }
 }

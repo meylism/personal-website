@@ -42,7 +42,9 @@ export default function Layout({children, home, post}) {
                 <main>{children}</main>
                 {post ?
                 <>
-                    <Link href="/blog"><a className={styles.mainContainer__linkBack}><span>&#10145;</span>Back</a></Link>
+                    <Link href="/blog">
+                            <a className={styles.mainContainer__linkBack}><span>&#10145;</span>Back</a>
+                    </Link>
                 </> : <></>  
                 }
                 <footer className={styles.footer}>
