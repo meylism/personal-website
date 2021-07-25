@@ -20,7 +20,7 @@ export default function Home() {
             </div>
         </div>
         <div>
-            <img src="/profile.jpg" alt="Meylis Matiyev" className={styles.profilePhoto}/>
+            <img src="/static/pictures/profile.jpg" alt="Meylis Matiyev" className={styles.profilePhoto}/>
         </div>
     </div>
     <div className={styles.main}>

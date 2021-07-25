@@ -7,7 +7,7 @@ export default function Layout({children, home, post}) {
         <>
         <Head>
             <title>Blog</title>
-            <link rel="icon" href="/favicon.ico"/>
+            <link rel="icon" href="/static/favicon.ico"/>
             <meta
                 name="description"
                 content="Personal blog."
@@ -21,18 +21,18 @@ export default function Layout({children, home, post}) {
                 <div className={styles.linkContainer}>
                     <ul className={styles.linkContainer__link}>
                         <li>
-                            <a href="/docs/cv.pdf" target="_black" title="Curriculum Vitae">
-                                <img src="/icons/cv.svg" alt="CV" className={styles.linkContainer__logo}/>
+                            <a href="/static/docs/cv.pdf" target="_black" title="Curriculum Vitae">
+                                <img src="/static/icons/cv.svg" alt="CV" className={styles.linkContainer__logo}/>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/meylis-matiyev/" target="_black" title="LinkedIn">
-                                <img src="/icons/linkedin.svg" alt="LinkedIn" className={styles.linkContainer__logo}/>
+                                <img src="/static/icons/linkedin.svg" alt="LinkedIn" className={styles.linkContainer__logo}/>
                             </a>
                         </li>
                         <li>
                             <a href="https://github.com/meylism" target="_black" title="GitHub">
-                                <img src="/icons/github.svg" alt="GitHub" className={styles.linkContainer__logo}/>
+                                <img src="/static/icons/github.svg" alt="GitHub" className={styles.linkContainer__logo}/>
                             </a>
                         </li>
                     </ul>
