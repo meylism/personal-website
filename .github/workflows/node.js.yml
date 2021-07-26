@@ -27,6 +27,9 @@ jobs:
       - name: Build my App
         run: npm run build && npm run export && touch ./out/.nojekyll
 
+      - name: Create a CNAME record
+        run: touch ./out./CNAME && echo "meylism.com" >> ./out/CNAME
+        
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
