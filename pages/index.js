@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import styles from '../styles/Home.module.scss'
+import { imagePrefixer } from '../lib/utils'
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
             </div>
         </div>
         <div>
-            <img src="/static/pictures/profile.jpg" alt="Meylis Matiyev" className={styles.profilePhoto}/>
+            <img src={`${imagePrefixer()}/static/pictures/profile.jpg`} alt="Meylis Matiyev" className={styles.profilePhoto}/>
         </div>
     </div>
     <div className={styles.main}>
