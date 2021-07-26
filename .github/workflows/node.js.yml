@@ -11,7 +11,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-        NEXT_PUBLIC_BASE_PATH: https://meylism.github.io/personal-website/
+        NEXT_PUBLIC_BASE_PATH: /personal-website
+        NEXT_PUBLIC_PREFIX: https://meylism.github.io/personal-website/
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
