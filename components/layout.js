@@ -8,10 +8,6 @@ export default function Layout({children, home, post}) {
         <Head>
             <title>Blog</title>
             <link rel="icon" href="/static/favicon.ico"/>
-            <meta
-                name="description"
-                content="Personal blog."
-            />
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-42W67DYZER"></script>
             <script dangerouslySetInnerHTML={{__html: `
                 window.dataLayer = window.dataLayer || [];
