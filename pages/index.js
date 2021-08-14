@@ -7,7 +7,8 @@ export default function Home() {
   <Layout home>
   <Head>
     <title>Meylis Matiyev</title>
-    <meta name="description" content="Meylis Matiyev's personal website. I write about things that I find interesting."/>
+    <meta name="description" content="I am a Computer Science Engineering student at the University of Pécs, Hungary. \
+      My interests lie within the field of Big data technologies and databases."/>
     <meta name="author" content="Meylis Matiyev"/>
   </Head>
 
