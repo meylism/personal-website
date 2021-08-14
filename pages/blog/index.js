@@ -9,7 +9,7 @@ export default function Blog({posts}) {
     <Layout>
       <Head>
         <title>Blog</title>
-        <meta name="description" content="Meylis Matiyev's personal blog."/>
+        <meta name="description" content="Meylis Matiyev's personal blog. I write about things that I find interesting."/>
         <meta name="author" content="Meylis Matiyev"/>
       </Head>
 
