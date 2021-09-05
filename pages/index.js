@@ -7,8 +7,7 @@ export default function Home() {
   <Layout home>
   <Head>
     <title>Meylis Matiyev</title>
-    <meta name="description" content="I am a Computer Science Engineering student at the University of Pécs, Hungary. \
-      My interests lie within the field of Big data technologies and databases."/>
+    <meta name="description" content="Meylis Matiyev's personal website. I write about databases and programming."/>
     <meta name="author" content="Meylis Matiyev"/>
   </Head>
 
@@ -27,8 +26,8 @@ export default function Home() {
     <div className={styles.main}>
         <div className={styles.main__content}>
             <p>
-            Hello! I am currently a second-year Computer Science Engineering student at the <a
-                href="https://english.mik.pte.hu/">University of Pécs</a>, Hungary.
+            Hello! I am currently a third-year Computer Science Engineering student at the <a
+                href="https://international.pte.hu/">University of Pécs</a>, Hungary.
             My interests lie within the field of Big data technologies and databases.
             Now, I am very much looking forward to an internship offer. Thank you!
             </p>
