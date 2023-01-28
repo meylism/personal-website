@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.header__aboutMe}>
             <h1 className={styles.header__name}>Meylis Matiyev</h1>
             <div className={styles.header__info}>
-                <p className={styles.header__major}>Undergraduate student, University of Pécs</p>
+                <p className={styles.header__major}>Software Engineer</p>
             </div>
         </div>
         <div>
@@ -26,10 +26,8 @@ export default function Home() {
     <div className={styles.main}>
         <div className={styles.main__content}>
             <p>
-            Hello! I am currently a third-year Computer Science Engineering student at the <a
-                href="https://international.pte.hu/">University of Pécs</a>, Hungary.
-            My interests lie within the field of Big data technologies and databases.
-            Now, I am very much looking forward to an internship offer. Thank you!
+                Hello! I am Meylis and currently I am an intern at Cloudera where I am in the <a href="https://hive.apache.org/">Hive</a> runtime team(of <a href='https://www.cloudera.com/products/data-warehouse.html'>CDW</a>) and working on making JSON queries faster.
+                My interests lie within the area of Big Data and databases technologies.
             </p>
         </div>
         <div className={styles.main__content}>
@@ -37,10 +35,20 @@ export default function Home() {
             <ul className={styles.main__experience}>
                 <li>
                     <div>
+                        <h3 className={styles.main__actName}>Software Engineer Intern</h3>
+                        <p className={styles.main__actDuration}>Sep 2021 - Present</p>
+                        <p className={styles.main__actPlace}>Cloudera</p>
+                        <p className={styles.main__actDescription}>
+                            Part of Hive runtime team and worked on query runtime optimizations with a focus on JSON queries.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
                         <h3 className={styles.main__actName}>Undergraduate Teaching Assistant</h3>
-                        <p className={styles.main__actDuration}>Sep 2020 - Jan 2021</p>
+                        <p className={styles.main__actDuration}>Sep 2020 - Jan 2020</p>
                         <p className={styles.main__actPlace}>University of Pécs</p>
-                        <p className={styles.main__actDescription}>I took part in a research project related to Biomedical
+                        <p className={styles.main__actDescription}>Took part in a research project related to Biomedical
                             Engineering. My job included writing software for the
                             project using Python and Qt.
                         </p>
