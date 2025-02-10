@@ -27,23 +27,13 @@ export default function Layout({children, home, post}) {
                 <div className={styles.linkContainer}>
                     <ul className={styles.linkContainer__link}>
                         <li>
-                            <a href="/static/docs/cv.pdf" target="_black" title="Curriculum Vitae">
-                                <img src="/static/icons/cv.svg" alt="CV" className={styles.linkContainer__logo}/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/meylis-matiyev/" target="_black" title="LinkedIn">
+                            <a href="https://www.linkedin.com/in/meylism" target="_black" title="LinkedIn">
                                 <img src="/static/icons/linkedin.svg" alt="LinkedIn" className={styles.linkContainer__logo}/>
                             </a>
                         </li>
                         <li>
                             <a href="https://github.com/meylism" target="_black" title="GitHub">
                                 <img src="/static/icons/github.svg" alt="GitHub" className={styles.linkContainer__logo}/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:meylismatiyev@gmail.com" target="_black" title="Email">
-                                <img src="/static/icons/mail.svg" alt="email" className={styles.linkContainer__logo}/>
                             </a>
                         </li>
                         <li>
