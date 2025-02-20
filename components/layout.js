@@ -36,11 +36,6 @@ export default function Layout({children, home, post}) {
                                 <img src="/static/icons/github.svg" alt="GitHub" className={styles.linkContainer__logo}/>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://keybase.io/meylism" target="_black" title="Keybase">
-                                <img src="/static/icons/keybase.svg" alt="Keybase" className={styles.linkContainer__logo}/>
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </header>
